@@ -236,18 +236,6 @@
 }
 
 @media (max-width: 900px) {
-  .navbar-link {
-    margin: 2rem;
-  }
-
-  .navbar-link i {
-    font-size: 4rem;
-  }
-
-  .navbar-link span {
-    font-size: 2rem;
-  }
-
   .section-heading {
     font-size: 5rem;
     margin: 0 10rem;
@@ -292,10 +280,6 @@
     font-size: 6rem;
   }
 
-  .menu {
-    left: 2rem;
-  }
-
   .section-3 {
     height: 40rem;
     flex-direction: column;
@@ -311,14 +295,6 @@
 @media (max-width: 600px) {
   html {
     font-size: 40%;
-  }
-
-  .menu {
-    left: 4rem;
-  }
-
-  .navbar-link {
-    margin: 0 0.7rem;
   }
 }
 /* End of responsive */ ;

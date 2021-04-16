@@ -225,3 +225,47 @@ html {
   text-align: center;
 }
 /* Footer */
+
+/* Responsive */
+@media (max-width: 900px) {
+  .navbar-link {
+    margin: 2rem;
+  }
+
+  .navbar-link i {
+    font-size: 4rem;
+  }
+
+  .navbar-link span {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 795px) {
+  .menu {
+    left: 4rem;
+  }
+  .footer-paragraph {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .navbar-link {
+    margin: 0 0.7rem;
+  }
+  #footer {
+    height: 15vh;
+  }
+  .footer-paragraph {
+    font-size: 0.8rem;
+  }
+  .signup-form-input {
+    width: 23rem;
+    padding: 0.5rem;
+  }
+  .footer-heading {
+    font-size: 2rem;
+  }
+}
+/* Responsive */
