@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <title>Toby Roy's Photography Homepage</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="eco.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar target">
+      <a href="index.html" class="navbar-link">
+        <i class="fas fa-home"></i>
+        <span>Home</span>
+      </a>
+      <a href="#" class="navbar-link">
+        <i class="fas fa-camera-retro"></i>
+        <span>Gallery</span>
+      </a>
+      <a href="#" class="navbar-link">
+        <i class="fas fa-store"></i>
+        <span>Shop</span>
+      </a>
+      <a href="services.html" class="navbar-link">
+        <i class="fas fa-at"></i>
+        <span>Services</span>
+      </a>
+      <a href="eco.html" class="navbar-link">
+        <i class="fab fa-pagelines"></i>
+        <span>Eco-aware</span>
+      </a>
+    </nav>
+    <div class="menu target"></div>
+    <!-- End of navbar -->
+
+    <!-- API section -->
+    <div class="app-wrap">
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search-box"
+          placeholder="Search for City"
+        />
+      </header>
+      <main>
+        <section class="location">
+          <div class="city">London, UK</div>
+          <div class="date">Monday the 19th of April, 2021</div>
+        </section>
+        <div class="current">
+          <div class="temp">16<span>°C</span></div>
+          <div class="weather">Sunny</div>
+          <div class="hi-low">16°C / 5°C</div>
+        </div>
+      </main>
+    </div>
+    <!-- End of API section -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer-text">
+        <h2 class="footer-heading">Enquire Now</h2>
+        <p class="footer-paragraph">
+          Get in touch if you'd like to find out more
+        </p>
+      </div>
+      <form class="signup-form">
+        <input
+          type="email"
+          class="signup-form-input"
+          placeholder="Enter Your Email"
+        />
+        <button type="submit" class="signup-form-btn">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </form>
+      <p class="copyright">LensIn2Nature &copy; All Rights Reserved</p>
+      <a
+        class="footer-link"
+        href="https://twitter.com/roytroy9j77?lang=en-gb"
+        target="_blank"
+        >Twitter <i class="fab fa-twitter"></i
+      ></a>
+    </section>
+    <!-- End of Footer -->
+    <script src="script.js"></script>
+    <script src="eco.js"></script>
+  </body>
+</html>

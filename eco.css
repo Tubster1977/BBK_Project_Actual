@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Shadows+Into+Light&display=swap");
+/* API Section */
+body {
+  background-image: url("images/gallery_image19.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.app-wrap {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 25px 25px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: #ead3cb;
+  border-radius: 12px 0px 12px 0px;
+  border-bottom: 2px solid #ff8303;
+  color: #194350;
+  font-weight: 500;
+  transition: 0.3 ease-out;
+}
+
+header input:focus {
+  background-color: #f8f5f1;
+}
+
+main {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.location .city {
+  color: #f8f5f1;
+  font-size: 5rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.location .date {
+  color: #f8f5f1;
+  font-size: 2rem;
+}
+
+.current .temp {
+  color: #f8f5f1;
+  font-size: 8rem;
+  font-weight: 900;
+  margin: 32px 0px;
+  text-shadow: 0.3rem 0.3rem 0.3rem #000;
+}
+
+.current .temp span {
+  font-weight: 300;
+}
+
+.current .weather {
+  color: #f8f5f1;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.current .hi-low {
+  padding-top: 15px;
+  color: #f8f5f1;
+  font-size: 2rem;
+  font-weight: 500;
+}
+/* End of API Section */
+
+/* Responsive */
+@media (max-width: 550px) {
+  html {
+    font-size: 40%;
+  }
+}
+@media (max-width: 350px) {
+  html {
+    font-size: 35%;
+  }
+}
+/* Responsive */
