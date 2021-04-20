@@ -3,19 +3,34 @@
 /* Part One */
 .part-one {
   margin: 0px auto;
-  background-image: url(https://cdn.pixabay.com/photo/2012/02/17/14/50/background-13986_960_720.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  animation: part-one 22s infinite;
+}
+
+@keyframes part-one {
+  0% {
+    background-color: #bbbfca;
+  }
+  25% {
+    background-color: #d8e3e7;
+  }
+  50% {
+    background-color: #a7c5eb;
+  }
+  75% {
+    background-color: #8ab6d6;
+  }
+  100% {
+    background-color: #bbbfca;
+  }
 }
 
 .part-one h1 {
   text-align: center;
-  color: #008891;
+  color: #ffda77;
   font-size: 8rem;
   margin: 30px 2px;
   font-family: "Montserrat", sans-serif;
@@ -24,7 +39,7 @@
 
 .part-one h2 {
   text-align: center;
-  color: #008891;
+  color: #325288;
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
   font-weight: normal;
@@ -35,6 +50,8 @@
 
 .Toby-pic {
   margin: 35px;
+  border: #008891 3px solid;
+  border-radius: 50%;
 }
 
 .pro {
@@ -57,9 +74,9 @@
 }
 
 .part-two h2 {
-  padding-top: 25px;
+  padding-top: 70px;
   text-align: center;
-  color: #008891;
+  color: #ffda77;
   font-size: 6rem;
   margin: 2px 2px;
   font-family: "Montserrat", sans-serif;
@@ -147,7 +164,7 @@
 
 .part-three h2 {
   text-align: center;
-  color: #008891;
+  color: #ffda77;
   font-size: 6rem;
   font-family: "Montserrat", sans-serif;
   text-shadow: 0.2rem 0.2rem 0.5rem #000;
@@ -158,16 +175,16 @@
   margin-right: 5%;
   font-size: 3em;
   font-weight: 900;
-  color: #ff8882;
+  color: #ff8303;
   text-align: center;
   letter-spacing: 0.2rem;
   text-shadow: 0.1rem 0.1rem 0.1rem #000;
 }
 
 .form-container {
-  width: 75%;
+  width: 70%;
   height: 36%;
-  background-color: #ffd3b4;
+  background-color: #f8f1f1;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -278,7 +295,7 @@ textarea.invalid {
     margin: 5rem 10rem;
   }
   .form-container {
-    height: 60%;
+    height: 50%;
   }
   .envelope-img {
     display: none;

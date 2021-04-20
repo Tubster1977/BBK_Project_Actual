@@ -11,13 +11,13 @@ function setQuery(evt) {
     getResults(searchBox.value);
     console.log(searchBox.value);
   }
-}
+};
 
 function getResults (query) {
   fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`).then(weather => {
     return weather.json();
   }).then(displayResults);
-}
+};
 
 function displayResults (weather) {
   console.log(weather);
@@ -36,7 +36,7 @@ function displayResults (weather) {
   
   let hilow = document.querySelector('.hi-low');
   hilow.innerText = `${Math.round(weather.main.temp_min)}°C / ${Math.round(weather.main.temp_max)}°C`;
-}
+};
 
 function dateBuilder (d) {
   let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
@@ -48,4 +48,10 @@ function dateBuilder (d) {
   let year = d.getFullYear();
 
   return `${day} ${date} ${month} ${year}`;
-}
+};
+
+Array.from(document.querySelectorAll(".navigation-button")).forEach((item) => {
+  item.onclick = () => {
+    item.parentElement.parentElement.classList.toggle("change");
+  };
+});
