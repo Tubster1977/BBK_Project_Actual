@@ -176,12 +176,11 @@
 .form-container {
   width: 70%;
   height: 36%;
-  background-color: #bdc7c9;
+  background-color: #8ab6d6;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0.3rem 0.3rem 0.4rem #8ab6d6, -0.1rem -0.1rem 0.4rem #8ab6d6;
-  border: 2px solid #5f939a;
+  box-shadow: 0.3rem 0.3rem 0.4rem #bdc7c9, -0.1rem -0.1rem 0.4rem #d8e3e7;
   border-radius: 0.8rem;
   perspective: 100rem;
   position: absolute;
@@ -190,10 +189,10 @@
 
 .envelope-img {
   width: 50rem;
-  background-color: #51c4d3;
+  background-color: #2978b5;
   padding: 5rem;
   opacity: 0.8;
-  box-shadow: -2rem 2rem 3rem #bdc7c9;
+  box-shadow: -2rem 2rem 3rem #364547;
   border-radius: 0.8rem;
   transform: rotateY(20deg);
   transition: all 0.5s;
@@ -280,6 +279,21 @@ textarea.invalid {
 
 /* Responsive */
 @media (max-width: 1400px) {
+  .part-three {
+    height: 115vh;
+  }
+
+  .form-container {
+    background-color: transparent;
+    box-shadow: none;
+    top: 17rem;
+  }
+
+  .contact-form {
+    width: 75rem;
+    height: 50rem;
+  }
+
   .part-two {
     height: auto;
   }
@@ -304,6 +318,10 @@ textarea.invalid {
 }
 
 @media (max-width: 750px) {
+  .part-three {
+    height: 100vh;
+  }
+
   html {
     font-size: 50%;
   }
@@ -314,16 +332,10 @@ textarea.invalid {
     font-size: 40%;
   }
   .part-three {
-    height: auto;
+    height: 80vh;
     padding: 2rem;
   }
-  .part-three h3 {
-    padding: 2rem;
-  }
-  .form-container {
-    background-color: transparent;
-    box-shadow: none;
-  }
+
   .contact-form {
     box-shadow: 1rem 1rem 2rem #bdc7c9;
   }
@@ -333,6 +345,10 @@ textarea.invalid {
 }
 
 @media (max-width: 350px) {
+  .part-three {
+    height: 75vh;
+  }
+
   html {
     font-size: 35%;
   }
