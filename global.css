@@ -145,7 +145,7 @@ html {
   margin-top: 2px;
   width: 100%;
   height: 20vh;
-  background-color: #126e82;
+  background-color: #d8e3e7;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -160,12 +160,12 @@ html {
 .footer-heading {
   font-size: 3rem;
   font-weight: 1200;
-  color: #ffcc29;
+  color: #ff6701;
 }
 
 .footer-paragraph {
   font-size: 1.5rem;
-  color: #ffc2b4;
+  color: #ce1f6a;
 }
 
 .signup-form {
@@ -185,7 +185,7 @@ html {
 }
 
 .signup-form-input::placeholder {
-  color: #ffcc29;
+  color: #ff6701;
 }
 
 .signup-form-btn {
@@ -194,7 +194,7 @@ html {
   width: 4rem;
   height: 4rem;
   background-color: #333;
-  color: #ffc2b4;
+  color: #ff6701;
   border: none;
   font-size: 1.8rem;
   cursor: pointer;
@@ -205,9 +205,9 @@ html {
   bottom: 3.5rem;
   font-size: 1.5rem;
   font-weight: 200;
-  color: #eee;
+  color: #1b1a17;
   letter-spacing: 0.1rem;
-  border-top: 0.1rem solid #f8ede3;
+  border-top: 0.1rem solid #ff6701;
   padding-top: 2rem;
   width: 100%;
   text-align: center;
@@ -218,7 +218,7 @@ html {
   bottom: 1.5rem;
   font-size: 1.5rem;
   font-weight: 200;
-  color: #51c4d3;
+  color: #126e82;
   letter-spacing: 0.1rem;
   padding-top: 2rem;
   width: 100%;
