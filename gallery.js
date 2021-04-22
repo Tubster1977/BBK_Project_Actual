@@ -5,4 +5,4 @@ counter++;
 if(counter > 8){
 counter = 1;
 }
-}, 5000);
+}, 9000);

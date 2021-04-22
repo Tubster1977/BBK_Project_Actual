@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Shadows+Into+Light&display=swap");
 /* Gallery */
-#gallery {
-  background-image: url("images/bacground_kites_in_the_sky.jpg");
+#slideshow {
+  background-image: url("images/background_kites_in_the_sky.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -11,7 +11,7 @@
   align-items: center;
 }
 
-#gallery h1 {
+#slideshow h1 {
   position: absolute;
   top: 4rem;
   font-size: 9rem;
