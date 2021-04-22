@@ -1,10 +1,49 @@
+/* Disclaimer */
+#shop-disclaimer {
+  background-image: url(https://cdn.pixabay.com/photo/2012/02/17/14/50/background-13986_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0px auto;
+}
+
+#shop-disclaimer h1 {
+  font-family: "Montserrat", sans-serif, cursive;
+  font-size: 8rem;
+  color: #2978b5;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 40px;
+}
+
+#shop-disclaimer h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  font-weight: normal;
+  color: #4b778d;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 20px;
+}
+
+#shop-disclaimer h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: normal;
+  color: #f05945;
+  text-align: center;
+  padding-bottom: 15px;
+}
+/* End of Disclaimer */
+
 /* Shop */
 .content-section {
   margin: 0.2em;
 }
 
 .content-section-1 {
-  background-color: #fcecdd;
+  background-color: #ffc2b4;
   max-width: 1850px;
   margin: 0 auto;
   padding: 0 1.5em;
@@ -18,20 +57,21 @@
 }
 
 .content-section-3 {
-  background-color: #ffc288;
+  background-color: #a3d2ca;
   max-width: 1850px;
   margin: 0 auto;
   padding: 0 1.5em;
 }
 
 .section-header {
-  margin-top: 2px;
-  padding-top: 50px;
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
-  color: #008891;
+  color: #325288;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3em;
+  font-weight: bolder;
+  margin-top: 2px;
+  padding-top: 50px;
 }
 
 .shop-item {
@@ -42,9 +82,9 @@
   display: block;
   width: 100%;
   text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
-  color: #008891;
+  font-weight: bolder;
+  font-size: 2em;
+  color: #114e60;
   margin-bottom: 2px;
 }
 
@@ -174,5 +214,36 @@
   margin: 40px auto 2px auto;
   font-size: 1.75em;
 }
-
 /* End of Shop */
+
+/* Responsive */
+@media (max-width: 1200px) {
+  #shop-disclaimer h2 {
+    font-size: 3rem;
+  }
+
+  #shop-disclaimer h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  #shop-disclaimer h1 {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #shop-disclaimer h1 {
+    font-size: 5rem;
+  }
+
+  #shop-disclaimer h2 {
+    font-size: 2rem;
+  }
+
+  #shop-disclaimer h3 {
+    font-size: 2rem;
+  }
+}
+/* End of Responsive */
