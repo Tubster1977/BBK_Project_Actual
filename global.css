@@ -134,7 +134,7 @@ html {
   margin-top: 2px;
   width: 100%;
   height: 20vh;
-  background-color: #d8e3e7;
+  background-color: #28b5b5;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -149,12 +149,12 @@ html {
 .footer-heading {
   font-size: 3rem;
   font-weight: 1200;
-  color: #ff6701;
+  color: #ffda77;
 }
 
 .footer-paragraph {
   font-size: 1.5rem;
-  color: #ff005c;
+  color: #ffc2b4;
 }
 
 .signup-form {
@@ -196,7 +196,7 @@ html {
   font-weight: 200;
   color: #1b1a17;
   letter-spacing: 0.1rem;
-  border-top: 0.1rem solid #ff6701;
+  border-top: 0.1rem solid #ffda77;
   padding-top: 2rem;
   width: 100%;
   text-align: center;
@@ -207,7 +207,7 @@ html {
   bottom: 1.5rem;
   font-size: 1.5rem;
   font-weight: 200;
-  color: #2978b5;
+  color: #b0efeb;
   letter-spacing: 0.1rem;
   padding-top: 2rem;
   width: 100%;
