@@ -1,9 +1,6 @@
 /* Disclaimer */
 #shop-disclaimer {
-  background-image: url(https://cdn.pixabay.com/photo/2012/02/17/14/50/background-13986_960_720.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: #eee;
   margin: 0px auto;
 }
 
