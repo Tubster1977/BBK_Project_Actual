@@ -38,27 +38,21 @@
 /* End of Disclaimer */
 
 /* Shop */
-.content-section {
-  margin: 0.2em;
-}
 
 .content-section-1 {
   background-color: #ffc2b4;
-  max-width: 1850px;
   margin: 0 auto;
   padding: 0 1.5em;
 }
 
 .content-section-2 {
   background-color: #f3bda1;
-  max-width: 1850px;
   margin: 0 auto;
   padding: 0 1.5em;
 }
 
 .content-section-3 {
   background-color: #a3d2ca;
-  max-width: 1850px;
   margin: 0 auto;
   padding: 0 1.5em;
 }
